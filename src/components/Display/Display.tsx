@@ -1,5 +1,7 @@
-const Info = (): JSX.Element => {
+import "./Display.css";
+
+const Display = (): JSX.Element => {
   return <span className="number">667359961</span>;
 };
 
-export default Info;
+export default Display;
