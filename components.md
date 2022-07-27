@@ -48,12 +48,6 @@
     - Show:
     - Actions: receives a click
 
-    <!-- * Delete
-      - Receives:
-      - State:
-      - Show:
-      - Actions: receives a click -->
-
 # Data Layer
 
 - One object with properties:
