@@ -58,10 +58,13 @@
 
 - One object with properties:
 
-  - display: array (numbers) (length to control call button class to "active")
+  - tel number
   - isCalling: boolean
   -
 
 - Data Changes:
-  - Display show/erase numbers
-  - Toggle isCalling status to show/hide (REMOVE FROM DOM) call/hang buttons and "calling..." text
+
+  - add/erase numbers
+  - set isCalling status to true or false - show/hide (REMOVE FROM DOM) call/hang buttons and "calling..." text
+
+  iscalling y phoneNumber van a context junto con sus modificaciones
