@@ -1,7 +1,10 @@
+import Display from "../Display/Display";
+import "./Actions.css";
+
 const Actions = (): JSX.Element => {
   return (
     <div className="actions">
-      <span className="number">667359961</span>
+      <Display />
       <a href="#" className="call">
         Call
       </a>
