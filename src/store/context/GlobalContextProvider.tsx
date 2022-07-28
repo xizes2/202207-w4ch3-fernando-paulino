@@ -10,8 +10,8 @@ export const GlobalContextProvider = ({
   return (
     <GlobalContext.Provider
       value={{
-        phoneNumber: "",
-        isCalling: true,
+        phoneNumber: "123456789",
+        isCalling: false,
       }}
     >
       {children}
