@@ -1,11 +1,11 @@
 import { createContext } from "react";
 
-export interface IPhoneContext {
+export interface IGlobalContext {
   phoneNumber: string;
   isCalling: boolean;
 }
 
-export const GlobalContext = createContext<IPhoneContext>({
+export const GlobalContext = createContext<IGlobalContext>({
   phoneNumber: "",
   isCalling: true,
 });
